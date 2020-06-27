@@ -1,0 +1,209 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*Main title*/
+
+.heading {
+    color: #404040;
+    text-align: center;
+}
+
+/*Main menu*/
+
+.menu {
+    font-family: cursive;
+    font-size: medium;
+    list-style-type: none;
+    height: 34px;
+    width: 300px;
+    padding-left: 0px;
+    margin: 0 auto;
+}
+
+.menu li {
+    float: left;
+    margin: 5px 15px;
+}
+
+.menu_link {
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: firebrick;
+}
+
+.header {
+    height: 140px;
+    background-image: url(img/Logo_bg.png);
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+/*Catalog*/
+
+.catalog_item {
+    width: 189px;
+    margin-right: 20px;
+    float: left;
+}
+
+
+/*Img styles*/
+
+img[alt="Vampire_img"],
+img[alt="DOOM_img"],
+img[alt="Cyberpunk_img"] {
+    border: 2px solid black;
+    margin-right: 15px;
+}
+
+.img_descript {
+    height: 234px;
+}
+
+.img_short_descript {
+    float: left;
+}
+
+.bay input {
+    margin-left: 50px;
+    color: #ffffff;
+    background-color: darkgray;
+    padding: .7em 1.5em;
+}
+
+.bay input:hover {
+    background-color: silver;
+}
+
+.bay input:active {
+    background-color: darkslategrey;
+}
+
+.heading_item {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_discript {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.discription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.discription:first-letter {
+    font-size: 30px;
+    color: darkred;
+}
+
+.list_charact {
+    color: #555555;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    list-style-image: url(img/biohazard.png);
+}
+
+
+/*Tables*/
+
+.table_sizes {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table_sizes td {
+    border: 1px solid #000000;
+    padding: 5px 5px;
+}
+
+.table_sizes tr:first-of-type {
+    border: 2px solid #000000;
+}
+
+.table_sizes tr:nth-child(2) td {
+    border: 2px solid #000000;
+    height: 35px;
+}
+
+.table_sizes td:first-of-type {
+    border: 2px solid #000000;
+}
+
+
+/*Contacts*/
+
+.input_fild {
+    width: 15%;
+    height: 15px;
+    color: #484343;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.input_textarea {
+    width: 50%;
+    height: 100px;
+    color: #484343;
+    font-style: italic;
+}
+
+.input_fild_email {
+    width: 15%;
+    height: 15px;
+    color: #484343;
+    font-style: italic;
+}
+
+.email input:focus {
+    color: red;
+    background-color: cornsilk;
+}
+
+.product_img img:hover {
+    border: 2px solid transparent;
+}
+
+
+/*Footers*/
+
+.hr {
+    clear: both;
+}
+
+.footer {
+    margin: 5px 10px;
+    background-color: #cccccc;
+    text-align: left;
+	
+}
